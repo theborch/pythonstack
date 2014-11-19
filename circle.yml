@@ -1,0 +1,27 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    America/Chicago # Set the timezone
+
+  # Version of ruby to use
+  ruby:
+    version:
+      2.1.2
+
+## Customize dependencies
+dependencies:
+  pre:
+    - gem install bundler
+
+  override:
+    - bundle install:
+        timeout: 600
+
+## Customize test commands
+test:
+  override:
+    - bundle exec rake style:
+        timeout: 600
+    - bundle exec rake spec:
+        timeout: 600
