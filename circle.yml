@@ -17,9 +17,6 @@ general:
 
 ## Customize dependencies
 dependencies:
-  pre:
-    - gem install bundler
-
   override:
     - bundle install:
         timeout: 900
