@@ -22,7 +22,7 @@ dependencies:
 
   override:
     - bundle install:
-        timeout: 600
+        timeout: 900
 
 ## Customize test commands
 test:
