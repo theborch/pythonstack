@@ -9,6 +9,12 @@ machine:
     version:
       2.1.2
 
+## Branch usage
+general:
+  branches:
+    only:
+      - ci_testing
+
 ## Customize dependencies
 dependencies:
   pre:
