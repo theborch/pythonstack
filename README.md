@@ -189,3 +189,5 @@ https://github.com/rackspace-cookbooks/contributing/blob/master/CONTRIBUTING.md
 Authors
 -------
 Authors:: Rackspace DevOps (devops@rackspace.com)
+
+[ ![Codeship Status for theborch/pythonstack](https://codeship.com/projects/c041b670-5180-0132-0749-2a788248b83a/status)](https://codeship.com/projects/48362)
